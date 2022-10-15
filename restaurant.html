@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <title>Restuarants</title>
+    <link rel="icon" type="image/x-icon" href="butter.png">
+ 
+  </head>
+<body>
+  
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: rgba(79, 72, 64, 0.512);" >
+      <div class="container-fluid" >
+        
+        <!--<a class="navbar-brand" href="#">Navbar</a>-->
+        <nav class="navbar  navbar-expand-light" >
+          <div class="container-fluid" >
+            <a class="navbar-brand"  href="#">
+              <img src="butter.png" alt="" width="30" height="25" class="d-inline-block align-text-top" >
+            ButterFly
+            </a>
+            
+          </div>
+          
+        </nav>
+      
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse"  id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+            <li class="nav-item" >
+              <a class="nav-link active"  aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="container" style=" background-position: center; padding-top:120px;padding-bottom: 70px;">
+      <img src="I.png" style=" float: left; margin-left:120px; width:20%;">
+      <h1 class="display-1 " class="container " style="text-align: center;font-family: 'Courier New', monospace; color: black;">FEELI'N  HUNGRY?</h1>
+      <h3  class="container " style="text-align: center;font-family: 'Courier New', monospace; color: rgba(246, 5, 5, 0.449);">GRAB SOME DILICIOUS FOOD FROM MOST POPULAR CAFES</h3>
+    </div>
+
+
+<div style="background-color: rgba(250, 235, 215, 0.512);">
+<section class="container" style="padding: 10px;">
+      <div id="carouselExampleCaptions"  class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators" >
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+          
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="4000">
+            <img src="food.jpg" class="d-block w-100 " alt="..." style="height: 50%;">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="food-1-1603794809.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="f1.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="f3.avif" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+          
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="f6.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Third slide label</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section> 
+  <section class="container" style="text-align: center; padding:20px;margin-top:40px;font-family:'Courier New', monospace;">
+    <h1 class="display-3 "><b>Choose From the Top Franchise's</b></h1>
+  </section>      
+           
+<div >
+    <div class="container text-center" >
+      <div class="row" style=" margin-top:30px">
+        <div class="col" style="padding: 20px;">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem; ">
+            <a href="/hello.html">
+            <img src="mcD.jpg" class="card-img-top" alt="mc Donalds" ></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">Mc Donalds</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem; ">
+            <a href="/hello.html">
+            <img src="pizzaHut.webp" height="175px"class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center;padding: 15px;">
+              <h5 class="card-title">Pizza Hut</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem; ">
+            <a href="/hello.html">
+            <img src="burger king.png" height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">Burger King</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem; ">
+            <a href="/hello.html">
+            <img src="dominos.webp" height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">Domino's</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row"style=" margin-top:30px" >
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem; ">
+            <a href="/hello.html">
+            <img src="subway.jpg"  height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">SubWay</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem; ">
+            <a href="/hello.html">
+            <img src="starbucks.jpg" height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">Starbucks</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem; ">
+            <a href="/hello.html">
+            <img src="kfc.png" height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">KFC</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem;">
+            <a href="/hello.html">
+            <img src="baskin robin.jpg" height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">Baskin Robins</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top:30px">
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem; ">
+            <a href="/hello.html">
+            <img src="wow.jpg" height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">WOW Momo's</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem; ">
+            <a href="/hello.html">
+            <img src="barbeque.jpg" height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">Barbeque Nation</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem; ">
+            <a href="/hello.html">
+            <img src="bikaner.png" height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">Bikanerwala</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem;">
+            <a href="/hello.html">
+            <img src="taco bell.jpg" height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">Taco Bells</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row" style=" margin-top:30px">
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem; ">
+            <a href="/hello.html">
+            <img src="tim.jpg" height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">Tim Horton</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+          
+        </div>
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem; ">
+            <a href="/hello.html">
+            <img src="nazeer.webp" height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">Nazeer Foods</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem; ">
+            <a href="/hello.html">
+            <img src="dunkin.webp" height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">Dunkin Donuts</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col" style="padding: 20px">
+          <div class="shadow-lg p-1 mb-3 bg-body rounded" class="card"  style="width: 18rem;">
+            <a href="/hello.html">
+            <img src="vango.jpg" height="175px" class="card-img-top" alt="mc Donalds"></a>
+            <div class="card-body" style="text-align: center; padding: 15px;">
+              <h5 class="card-title">Vango</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+ </div> 
+ <footer  class="row row-cols-5 py-5 my-5 border-top" id="foot">
+  <div class="col" >
+    <div class="container" style="margin: 30px;">
+    <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+      <img  width="70" height="42" src="butter.png">
+    </a>
+    <h2>ButterFly</h2>
+    <p class="text-muted">© 2021</p>
+  </div>
+  </div>
+
+  <div class="col">
+
+  </div>
+
+  <div class="col" >
+    <h5>Section</h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+    </ul>
+  </div>
+
+  <div class="col">
+    <h5>Section</h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+    </ul>
+  </div>
+
+  <div class="col">
+    <h5>Section</h5>
+    <ul class="nav flex-column">
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+      <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+    </ul>
+  </div>
+</footer>
+
+</body>
+</html>

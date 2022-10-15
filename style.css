@@ -1,0 +1,32 @@
+.circle-item{
+    display: inline-block;
+    position: relative;
+    overflow: hidden;
+    color: white;
+}
+.map{
+    background-image: url(brick.jpg);
+    background-size: cover;
+    margin-top: 50px;
+}
+#how{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    font-family: trade-gothic-next,sans-serif;
+    padding: 30px;
+    padding-left: 20px;
+    padding-right: 40%;
+    padding-top: 100px;
+    padding-bottom: 150px;
+    font-family: brandon-grotesque,sans-serif;
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: .2em;
+    
+}
+#foot{
+    
+    padding-left: 50px;
+    padding-right: 50px;
+}
